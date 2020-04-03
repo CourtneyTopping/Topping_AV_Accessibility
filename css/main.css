@@ -1,17 +1,25 @@
 body {
     background: rgb(100,49,142);
 background: linear-gradient(180deg, rgba(100,49,142,1) 0%, rgba(51,25,73,1) 100%);
+font-family: 'Noto Sans', sans-serif;
+}
+button:hover {
+    opacity: 80%;
 }
 
 h1, h2 {
     color: white;
 }
 
+h1 {
+    font-style: italic;
+}
+
 .transcripts {
     height:200px;
-    width:600px;
+    width:880px;
     overflow:auto;
-    background-color: white;
+    background-color: #f3ebdc;
     color:black;
     scrollbar-base-color:gold;
     font-family:sans-serif;
@@ -20,4 +28,27 @@ h1, h2 {
 
 #tv_video_controls_bar {
     background-color: white;
+}
+
+#video_controls_bar {
+    background-color: white;
+}
+
+#desc {
+    margin-top: -20px;
+}
+
+.overview {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.lyrics {
+    margin-top: 30px;
+}
+
+#movies {
+    margin-top: 80px;
 }
