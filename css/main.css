@@ -1,0 +1,23 @@
+body {
+    background: rgb(100,49,142);
+background: linear-gradient(180deg, rgba(100,49,142,1) 0%, rgba(51,25,73,1) 100%);
+}
+
+h1, h2 {
+    color: white;
+}
+
+.transcripts {
+    height:200px;
+    width:600px;
+    overflow:auto;
+    background-color: white;
+    color:black;
+    scrollbar-base-color:gold;
+    font-family:sans-serif;
+    padding:10px;
+}
+
+#tv_video_controls_bar {
+    background-color: white;
+}

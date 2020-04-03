@@ -1,0 +1,23 @@
+{
+  "name": "topping_av_accessibility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CourtneyTopping/Topping_AV_Accessibility.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CourtneyTopping/Topping_AV_Accessibility/issues"
+  },
+  "homepage": "https://github.com/CourtneyTopping/Topping_AV_Accessibility#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^13.12.0"
+  }
+}
